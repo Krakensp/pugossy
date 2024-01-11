@@ -1,0 +1,41 @@
+.trigger {
+  position: sticky;
+  z-index: 1000;
+  left: calc(100% - 2rem);
+  bottom: 0.5rem;
+  /* border: 2px solid #fffbe9;
+  border-radius: 10px; */
+  width: 3rem;
+  height: 3rem;
+  /* transform: translateX(600%) translateY(-0.25rem); */
+}
+
+.bars {
+  width: 3rem;
+  cursor: pointer;
+}
+.bars .line {
+  fill: none;
+  stroke: #fffbe9;
+  stroke-width: 4;
+  stroke-linecap: square;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+}
+.bars .line.top {
+  stroke-dasharray: 40 172;
+}
+.bars .line.middle {
+  stroke-dasharray: 40 111;
+}
+.bars .line.bottom {
+  stroke-dasharray: 40 172;
+}
+.bars.active .top {
+  stroke-dashoffset: -132px;
+}
+.bars.active .middle {
+  stroke-dashoffset: -71px;
+}
+.bars.active .bottom {
+  stroke-dashoffset: -132px;
+}
