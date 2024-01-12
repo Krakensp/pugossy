@@ -194,3 +194,23 @@ a {
 
 button:hover {
 }
+
+/*Icons*/
+
+.puntadas {
+  width: 40%;
+  margin: 0;
+}
+
+div h2 {
+  margin-bottom: -20px;
+}
+
+.compact {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  width: 3rem;
+}
