@@ -225,6 +225,10 @@ header {
   display: none;
 }
 
+.active-section {
+  text-decoration: underline;
+}
+
 .is-active {
   transform: translate(0);
   display: flex;
@@ -271,7 +275,7 @@ div h2 {
     transform: scale(0.5);
   }
   to {
-    transform: scale(0.75);
+    transform: scale(1);
   }
 }
 

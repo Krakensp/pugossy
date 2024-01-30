@@ -1,7 +1,3 @@
-var d = document;
-var $hamburgerBtn = d.querySelector(".hamburger-btn >*");
-var $menu = d.querySelector(".menu");
-
 function scrollSpy() {
   const $sections = d.querySelectorAll("section[data-scroll]");
   const cb = (entries) => {
@@ -26,16 +22,4 @@ function scrollSpy() {
   $sections.forEach((el) => observer.observe(el));
 }
 
-d.addEventListener("DOMContentLoaded", (e) => {
-  scrollSpy();
-});
-
-d.addEventListener("click", function (e) {
-  e.stopPropagation();
-  if (e.target === $hamburgerBtn) {
-    console.log("ok");
-    if ($menu) {
-      $menu.classList.toggle("is-active");
-    }
-  }
-});
+export default scrollSpy;
