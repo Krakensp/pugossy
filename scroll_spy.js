@@ -1,3 +1,5 @@
+const d = document;
+
 function scrollSpy() {
   const $sections = d.querySelectorAll("section[data-scroll]");
   const cb = (entries) => {
