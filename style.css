@@ -83,7 +83,7 @@ header {
 
 .main {
   background-attachment: fixed;
-  background-image: url(assets/images/background.png);
+  background-image: url(assets/images/background.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -124,7 +124,7 @@ header {
 
 /*products*/
 .products {
-  background-image: url(assets/images/gray-textured-surface-cement-concrete-base.jpg);
+  background-image: url(assets/images/texture1.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -172,7 +172,7 @@ header {
 
 /*Contact*/
 .contact {
-  background-image: url(assets/images/texture-background.jpg);
+  background-image: url(assets/images/texture2.webp);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
