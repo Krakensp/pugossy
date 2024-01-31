@@ -18,20 +18,25 @@
       <img src="assets/images/logo.png" alt="logo pugossy" />
     </header>
     <nav class="menu">
-      <a href="#inicio" data-scroll>Inicio</a>
+      <a href="#inicio" data-scroll class="active-section">Inicio</a>
       <a href="#productos" data-scroll>Productos</a>
       <a href="#contacto" data-scroll>Contacto</a>
     </nav>
 
-    <section id="inicio" class="container2 main parallax-bg" data-scroll>
+    <section id="inicio" class="container2 main parallax-bg " data-scroll>
       <div class="parallax-content">
         <img src="assets/images/logo.png" alt="logo pugossy" />
         <h1>Tienda de manualidades</h1>
         <p>Dale un toque único a ese momento inolvidable</p>
       </div>
     </section>
-    <section id="productos" class="container products" data-scroll>
-      <h2 class="header-section">🧶Tenemos varias opciones para ti</h2>
+    <section id="productos" class="container2 products" data-scroll>
+    <div class="productos-content">
+        <div class="header-animation">
+          <span class="header-icon">🧶</span>
+          <h2 class="header-section header-test">Tenemos varias opciones para ti</h2>
+        </div>
+   
 
       <div class="cards">
         <div class="left">
@@ -47,14 +52,22 @@
                 data-slide="0"
               >
                 <img
-                  src="assets/products/centro1.png"
+                  src="assets/products/centro4.jpg"
                   alt="centro de mesa"
                   class="left-blur"
                 />
               </div>
+            
               <div class="slider-slide" data-slider="slider-1" data-slide="1">
                 <img
-                  src="assets/products/centro2.PNG"
+                  src="assets/products/centro2.jpg"
+                  alt="centro de mesa"
+                  class="left-blur"
+                />
+              </div>
+                <div class="slider-slide" data-slider="slider-1" data-slide="2">
+                <img
+                  src="assets/products/centro1.png"
                   alt="centro de mesa"
                   class="left-blur"
                 />
@@ -137,7 +150,7 @@
               </div>
               <div class="slider-slide" data-slider="slider-2" data-slide="1">
                 <img
-                  src="assets/products/centro2.PNG"
+                  src="assets/products/recuerdo2.PNG"
                   alt="centro de mesa"
                   class="left-blur"
                 />
@@ -212,19 +225,27 @@
                   data-slide="0"
                 >
                   <img
-                    src="assets/products/peluche1.png"
+                    src="assets/products/peluche2.jpg"
                     alt="centro de mesa"
                     class="left-blur"
                   />
                 </div>
                 <div class="slider-slide" data-slider="slider-3" data-slide="1">
                   <img
-                    src="assets/products/centro2.PNG"
+                    src="assets/products/peluche3.jpg"
+                    alt="centro de mesa"
+                    class="left-blur"
+                  />
+                </div>
+                                <div class="slider-slide" data-slider="slider-3" data-slide="2">
+                  <img
+                    src="assets/products/peluche1.png"
                     alt="centro de mesa"
                     class="left-blur"
                   />
                 </div>
               </div>
+              
               <div class="slider-btns" data-slider="slider-3">
                 <a class="prev" href="#" data-slider="slider-3">
                   <svg
@@ -283,9 +304,10 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
     <section id="contacto" class="container contact" data-scroll>
-      <h2 class="header">Contactanos</h2>
+      <h2 class="header white-header">Contactanos</h2>
       <div class="card left">
         <p>
           Para información adicional o realizar tu pedido comunicate con
