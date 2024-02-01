@@ -327,6 +327,35 @@ div h2 {
   color: var(--secondary-color);
 }
 
+.outer-row {
+  animation-name: attenuateColor;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+.inner-row {
+  animation-name: attenuateColor;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes attenuateColor {
+  0% {
+    fill: gray;
+    opacity: 1;
+  }
+  50% {
+    fill: white;
+    opacity: 0.4;
+  }
+
+  100% {
+    fill: gray;
+    opacity: 1;
+  }
+}
+
 @keyframes to-right {
   from {
     transform: translate(-150%);
